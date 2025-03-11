@@ -8,7 +8,7 @@ import appointmentModel from '../models/appointmentModel.js'
 
 // API to register user
 const registerUser = async (req, res) => {
-
+  console.log("registerUser function called");
   try {
 
     const { name, email, password } = req.body; 
@@ -60,7 +60,7 @@ const registerUser = async (req, res) => {
 
 // API for user login
 const loginUser = async (req, res) => {
-
+  console.log("loginUser function called");
   try {
 
     const { email, password } = req.body
