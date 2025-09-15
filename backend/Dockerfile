@@ -4,7 +4,7 @@ copy package*.json ./
 run npm install
 copy . .
 expose 4000
-cmd ["npm","run","server"]
+cmd ["node","server.js"] 
 
 
 

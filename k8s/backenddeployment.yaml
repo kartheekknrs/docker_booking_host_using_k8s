@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  labels:
+    app: backend-d
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend-container
+        image: kartheekknrs/backend-image-1:latest
+        ports:
+        - containerPort: 4000
+        envFrom:
+        - configMapRef:
+            name: myconfigmap
+
