@@ -27,9 +27,10 @@ To run the project in your local environment, follow these steps: ⬇️
 
 ## how to run this 
 - first install docker and docker compose on your node and then run the command below for all there folders then you will get 3 images ad push them to DOCKER HUB using Docker push command .
-- <docker build -t xxxxxxxxxxxxxxx < \path\of\the\folder > >
+- `docker build -t xxxxxxxxxxxxxxx < \path\of\the\folder > `
 
-- then first apply configmaps using <kubectl apply comfigmap.yaml>.
+- then first apply configmaps using
+  * ` kubectl apply comfigmap.yaml`
 - then do same for all .yaml files while checking pods are working or not 
 
 ## 3 importent 
