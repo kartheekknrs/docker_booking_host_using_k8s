@@ -3,14 +3,14 @@ kind: ConfigMap
 metadata:
   name: myconfigmap
 data:
-  MONGODB_URI: "mongodb+srv://kartheekknrs:kartheekknrs@app.owznz.mongodb.net/?retryWrites=true&w=majority&appName=app"
+  MONGODB_URI: "*********************************************"
   PORT: "4000"
   VITE_HOST: "0.0.0.0"
-  VITE_BACKEND_URL: "http://backend-service:4000"
-  JWT_SECRET: "knrs@1430"
-  ADMIN_EMAIL: "kartheekknrs@gmail.com"
-  ADMIN_PASSWORD: "kartheekknrs"
-  CLOUDINARY_API_KEY: "221855462315863"
-  CLOUDINARY_NAME: "dulrns0wc"
-  CLOUDINARY_SECRET_KEY: "fL2upuiE-TEgjIkKkT1h-9utejE"
+  VITE_BACKEND_URL: "http:// <your backend path or ip>"
+  JWT_SECRET: "*************"
+  ADMIN_EMAIL: "*****************"
+  ADMIN_PASSWORD: "***********"
+  CLOUDINARY_API_KEY: "**************"
+  CLOUDINARY_NAME: "**************"
+  CLOUDINARY_SECRET_KEY: "**********************"
 
