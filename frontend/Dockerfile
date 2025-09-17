@@ -5,6 +5,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 # Build the app, passing the backend URL as an ARG
+#EXPOSE 5173
 ARG VITE_BACKEND_URL
 ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
 
