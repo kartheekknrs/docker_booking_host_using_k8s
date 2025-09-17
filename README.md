@@ -21,7 +21,7 @@ Doctor Appointment website quite useful website. In this project it consists of 
 To run the project in your local environment, follow these steps: ⬇️
 
 ## 1️⃣ You need: 
-- create cluster what ever you like 
+- create cluster what ever you like in local using (kind or minikube(I prefer minikube)) or in AWS if you have money
 
 ## 2️⃣ There is configmap file in k8s folder which act as a environment file for application
 
